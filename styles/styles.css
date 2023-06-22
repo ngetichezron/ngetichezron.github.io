@@ -1152,4 +1152,28 @@ section {
   }
 }
 
+
+
+@media screen and (max-width: 767px) {
+
+  /* Display the portfolio items and descriptive text in a column layout */
+  .portfolio-item-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Reset the default styles */
+  .portfolio-item {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+  }
+
+  /* Adjust the spacing */
+  .descriptive-text {
+    margin-top: 20px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
